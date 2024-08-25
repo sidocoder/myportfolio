@@ -49,9 +49,7 @@ h1.hi{
     color: #FF69B4;
     margin-bottom: 20px;
 }
-p{
-    font-family: 'pacifico', cursive;
-}
+
 #par{
     margin-top: 20%;
     
@@ -60,19 +58,8 @@ nav img{
     height: 50px;
     width: 90px; 
 }
-nav{
-    background-color: #f1e9e9;
-    padding-left: 6%;
-    padding-bottom: 10px;
-    padding-top: 3px;
-}
-.logo{
-    padding-right: 15%;
-}
-.icon{
-    padding-top: 10px;
-    padding-left: 130px;
-}
+
+
 .card-img-overlay{
     padding-top: 250px;
     padding-left: 100px;
@@ -84,80 +71,11 @@ nav{
     height: 40px;
     width: 200px;
     border-radius: 10%;
-    background-color: rgb(209, 155, 104);
+    background-color: #d19b68;
     padding-left: 20px;
     padding-top: 6px;
 }
-  .triangle-container {
-    position: relative;
-    
-  }
-  .triangle.clicked {
-    transform: rotate(360deg);
-  }
-  .rectangle {
-    width: 30px;
-    height: 30px;
-    background-color: #305366;
-  }
-  .circle{
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    background-color: #673a02;
-    margin-bottom: 100px;
 
-  }
-
-  .triangle {
-    position: absolute;
-    border-top: 20px solid transparent;
-    border-right: 35px solid #4CAF50;
-    border-bottom: 20px solid transparent;
-    transform-origin: top left;
-    transform: rotate(45deg);
-    transition: transform 0.5s ease-in-out;
-    margin-left: 40px;
-    
-  }
-.one{
-    position: absolute;
-    border-top: 20px solid transparent;
-    border-right: 35px solid #4CAF50;
-    border-bottom: 20px solid transparent;
-    transform-origin: top left;
-    transform: rotate(80deg);
-    transition: transform 0.5s ease-in-out;
-    margin-top: 170px;
-    margin-left: 20px;
-    
-
-}
-.two{
-    position: absolute;
-    border-top: 20px solid transparent;
-    border-right: 35px solid #4CAF50;
-    border-bottom: 20px solid transparent;
-    transform-origin: top left;
-    transform: rotate(30deg);
-    transition: transform 0.5s ease-in-out;
-    margin-top: 20px;
-    margin-left: 400px;
-}
-.cone{
-    margin-left:10px ;
-    margin-top: 200px;
-    
-}
-.rone{
-    margin-left: 450px;
-    margin-top: 1px;
-    padding-top: 0px;
-    height: 20px;
-    width: 20px;
-    transform: rotate(30deg);
-    
-}
 .home{
     background-color: #ffe4c4;
 }
