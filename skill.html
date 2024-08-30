@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sifhoran Regassa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="new.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <style>
+      /*---------------------------------------------------home image------------------------------------------*/
+      .img-container {
+        max-width: 200px;
+      }
+      .img-container img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+      @media (max-width: 576px) {
+        .img-container {
+          max-width: 150px;
+        }
+      }
+      p{
+    font-family: 'pacifico', cursive;
+}
+/*-----------------------------------------------------triangles-------------------------------------------*/
+
+html{
+  scroll-behavior: smooth;
+}
+/*--------------------------------------------------home----------------------------------------------*/
+.home{
+  background-attachment: fixed;
+  background-size: cover;
+ 
+}
+
+/*----------------------------------------------hire me button------------------------------------------*/
+
+.btn:hover {
+            transform: scale(1.1);
+            
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.669);
+        }
+
+.ease-out {
+    transition-timing-function: cubic-bezier(0,0,.2,1);
+}
+.transition-all {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .15s;
+}
+.outline-purple-500 {
+    outline-color: #a855f7;
+}
+
+.outline-double {
+    outline-style: double;
+}
+.shadow-2xl {
+    --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / .25);
+    --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #1c1c1c00), var(--tw-ring-shadow, 0 0 #29292900), var(--tw-shadow);
+}
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+   
+
+.text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+.py-2 {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+.px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.bg-purple-700 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(126 34 206 / var(--tw-bg-opacity));
+}
+.rounded-full {
+    border-radius: 9999px;
+}
+.overflow-hidden {
+    overflow: hidden;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+.relative {
+    position: relative;
+}
+/*----------------------------------------- read more button--------------------------------------------*/
+button, [role=button] {
+    cursor: pointer;
+}
+button, input:where([type=button]), input:where([type=reset]), input:where([type=submit]) {
+    --webkit-appearance: button;
+    background-color: transparent;
+    background-image: none;
+}
+button, select {
+    text-transform: none;
+}
+.relative {
+  width:max-content;
+}
+.text-indigo-600 {
+    --tw-text-opacity: 1;
+    color: rgb(79 70 229 / var(--tw-text-opacity));
+}
+.font-semibold {
+    font-weight: 600;
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+body{
+  background-color: #47474700;
+
+}
+</style>
+
+
+
+  </head>
+  <body style="background-color: #393b39;" >
+       <!------------------------------------------navbar---------------------------------------------->
+     
+       <nav class="navbar navbar-expand-lg fixed-top  ps-4 ">
+        <div class="container-fluid" >
+          <a class="navbar-brand" href="my.html"><img class="mx-5"src="image/navr.png" alt="" style="width: 110px; height: 60px;">
+          </a>
+          <div class="collapse navbar-collapse text-light pt-2" style="font-family: 'Satisfy', cursive;" id="navbarNav">
+            <ul class="navbar-nav gap-2 pt-2 ps-5">
+              <li class="nav-item ">
+                <a class="nav-link ps-5 "style=" color: #fb2d78;" aria-current="page" href="#"><b>Home</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link "style=" color: #fb2d78;" href="about.html"> <b>About me</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " style=" color: #fb2d78;"href="resume.html"><b>Resume</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link "style=" color: #fb2d78;" href="project.html"><b>Projects</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link "style=" color: #fb2d78;" href="skill.html"><b>Skills</b></a>
+              </li>       
+              <li class="nav-item">
+                <a class="nav-link " style=" color: #fb2d78;" href="contact.html"><b>Contact</b></a>
+              </li>
+              <li>
+                <div class="container-fluid">
+                    <form class="d-flex" style="width: max-content;" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="background: #0000; border-color: #fb2d78;">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>              
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+      <section class="skill " id="skill" style=" text-align: center;">
+        <div><h1>skills</h1>
+        </div>
+        <div class=" row py-3 mx-4 mt-5 ">
+          <div class="col-6">
+            <div class="row">
+              <div class="col-3 mt-2 ms-4">
+                <img src="image/html.jpg" alt="" style="width: 80px; height: 80px;">
+              </div>
+              <div class="col-6 progress mt-5" role="progressbar" aria-label="Animated striped example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg" style="width: 90%; background-color: #7996a7;"></div>
+              </div>
+            </div>          
+          </div>
+          <div class="col-6">
+            <div class="row">
+              <div class="col-3 mt-2 ms-4">
+                <img src="image/cppb.jpg" alt="" style="width: 80px; height: 80px;">
+              </div>
+              <div class="col-6 progress mt-5" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%; background-color: #7d85cd;"></div>
+              </div>
+            </div>          
+          </div>
+          <div class="col-6">
+            <div class="row">
+              <div class="col-3 mt-2 ms-3">
+                <img src="image/js.jpg" alt="" style="width: 140px; height: 80px;">
+              </div>
+              <div class="col-6 progress mt-5" role="progressbar" aria-label="Animated striped example" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 55%; background-color: #c5d861;"></div>
+              </div>
+            </div>          
+          </div>
+          <div class="col-6">
+            <div class="row">
+              <div class="col-3 mt-2 ms-4">
+                <img src="image/css.jpg" alt="" style="width: 130px; height: 80px;">
+              </div>
+              <div class="col-6 progress mt-5" role="progressbar" aria-label="Animated striped example" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 95%"></div>
+              </div>
+            </div>          
+          </div>
+          <div class="col-6">
+            <div class="row">
+              <div class="col-3 mt-2 ms-4">
+                <img src="image/my.jpg" alt="" style="width: 80px; height: 80px;">
+              </div>
+              <div class="col-6 progress mt-5" role="progressbar" aria-label="Animated striped example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 90%; background-color: rgb(59, 114, 96);"></div>
+              </div>
+            </div>          
+          </div>
+          <div class="col-6">
+            <div class="row">
+              <div class="col-3 mt-2 ms-4">
+                <img src="image/pyt.jpg" alt="" style="width: 140px; height: 80px;">
+              </div>
+              <div class="col-6 progress mt-5" role="progressbar" aria-label="Animated striped example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 50%; background-color: #c5d861;"></div>
+              </div>
+            </div>          
+          </div>
+  
+   
+                    
+        </div>
+      </section>
+
+      <script src="my.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+
+
+  
+  <footer class=" text-light py-3 mt-5"  style="background-color: rgb(117, 114, 116);" >
+    <div class="container text-center">
+      <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </div>
+    <div class="collapse navbar-collapse ps-5 pt-2" style="font-family: 'Satisfy', cursive;" id="navbarNav">
+      <ul class="navbar-nav gap-2 pt-2 ps-5">
+    <li class="nav-item ps-5">
+      <a class="nav-link text-danger" href="#"><i class="bi bi-instagram pe"></i></a>
+    </li>
+    <li class="nav-item ">
+      <a class="nav-link text-primary" href="t.me/c4anRG"><i class="bi bi-telegram"></i></a>
+    </li>
+    <li class="nav-item ">
+      <a class="nav-link text-black" href="#"><i class="bi bi-twitter-x"></i></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-black" href="#"><i class="bi bi-github"></i></a>
+    </li>
+  </ul>
+    </div>
+  </footer>
+</html>
+

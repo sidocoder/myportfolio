@@ -1,4 +1,4 @@
-.services {
+.projects {
     margin-bottom: 30px;
     padding: 1.5em;
     -webkit-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
@@ -7,41 +7,35 @@
     -o-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
     box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
     border-bottom: 2px solid #2c98f0; }
-    .services .icon2 {
+    .proj .icon2 {
       display: block;
       margin-bottom: 20px; }
-      .services .icon2 i {
+   .proj .icon2 i {
         font-size: 30px;
         color: #2c98f0; }
-    .services h3 {
+    .proj h3 {
       font-family: "Quicksand", Arial, sans-serif;
       font-size: 16px;
       font-weight: 500; }
-    .services.color-2 {
-      border-bottom: 2px solid #ec5453; }
-      .services.color-2 .icon2 i {
-        color: #ec5453; }
-    .services.color-3 {
+    .proj.color-3 {
       border-bottom: 2px solid #f9bf3f; }
-      .services.color-3 .icon2 i {
+      .proj.color-3 .icon2 i {
         color: #f9bf3f; }
-    .services.color-4 {
+    .proj.color-4 {
       border-bottom: 2px solid #a84cb8; }
-      .services.color-4 .icon2 i {
+      .proj.color-4 .icon2 i {
         color: #a84cb8; }
-    .services.color-5 {
+    .proj.color-5 {
       border-bottom: 2px solid #2fa499; }
-    .services.color-6 {
-      border-bottom: 2px solid #4054b2; }
-  
-  .services {
+    
+  .proj {
     margin-bottom: 80px;
     position: relative;
     z-index: 0; }
     @media screen and (max-width: 768px) {
-      .services {
+      .proj {
         margin-bottom: 4em; } }
-    .services .icon {
+    .proj .icon {
       position: absolute;
       top: -20px;
       left: 0;
@@ -51,66 +45,70 @@
       display: table;
       margin: 0 auto;
       background: #2c98f0; }
-      .services .icon:before, .services .icon:after {
+      .proj .icon:before, .proj .icon:after {
         position: absolute;
         left: 0;
         right: 0;
         content: ''; }
-      .services .icon:before {
+      .proj .icon:before {
         top: -30px;
         width: 0;
         height: 0;
         border-style: solid;
         border-width: 0 50px 30px 50px;
         border-color: transparent transparent #2c98f0 transparent; }
-      .services .icon:after {
+      .proj .icon:after {
         bottom: -30px;
         width: 0;
         height: 0;
         border-style: solid;
         border-width: 30px 50px 0 50px;
         border-color: #2c98f0 transparent transparent transparent; }
-      .services .icon i {
+      .proj .icon i {
         font-size: 30px;
-        color: #fff;
         z-index: 1;
         display: table-cell;
         vertical-align: middle; }
-    .services .desc {
+    .proj.desc {
       margin-top: 60px; }
-      .services .desc h3 {
+      .proj .desc h3 {
         font-size: 16px;
         font-weight: 700;
         text-transform: uppercase; }
-    .services.color-2 .icon {
-      background: #ec5453; }
-      .services.color-2 .icon:before {
-        border-color: transparent transparent #ec5453 transparent; }
-      .services.color-2 .icon:after {
-        border-color: #ec5453 transparent transparent transparent; }
-    .services.color-3 .icon {
+    .proj.color-3 .icon {
       background: #f9bf3f; }
-      .services.color-3 .icon:before {
+      .proj.color-3 .icon:before {
         border-color: transparent transparent #f9bf3f transparent; }
-      .services.color-3 .icon:after {
+      .proj.color-3 .icon:after {
         border-color: #f9bf3f transparent transparent transparent; }
-    .services.color-4 .icon {
+    .proj.color-4 .icon {
       background: #a84cb8; }
-      .services.color-4 .icon:before {
+      .proj.color-4 .icon:before {
         border-color: transparent transparent #a84cb8 transparent; }
-      .services.color-4 .icon:after {
+      .proj.color-4 .icon:after {
         border-color: #a84cb8 transparent transparent transparent; }
-    .services.color-5 .icon {
+    .proj.color-5 .icon {
       background: #2fa499; }
-      .services.color-5 .icon:before {
+      .proj.color-5 .icon:before {
         border-color: transparent transparent #2fa499 transparent; }
-      .services.color-5 .icon:after {
+      .proj.color-5 .icon:after {
         border-color: #2fa499 transparent transparent transparent; }
-    .services.color-6 .icon {
+    .proj.color-6 .icon {
       background: #4054b2; }
-      .services.color-6 .icon:before {
+      .proj.color-6 .icon:before {
         border-color: transparent transparent #4054b2 transparent; }
-      .services.color-6 .icon:after {
+      .proj.color-6 .icon:after {
         border-color: #4054b2 transparent transparent transparent; }
 
-        
+
+      .proj {
+          background-color: #151515;
+          border-radius: 15px;
+          transition: transform 0.3s, box-shadow 0.3s;
+          position: relative;
+      }
+
+      .proj:hover {
+          transform: translateY(-10px) scale(1.05);
+          box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+      }
